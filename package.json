@@ -1,7 +1,7 @@
 {
   "name": "yh-calendar",
   "main": "./dist/YhCalendar.common.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
