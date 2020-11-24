@@ -1,7 +1,7 @@
-import YhCalendar from './YhCalendar/YhCalendar.vue';
+import yhcalendar from './YhCalendar/YhCalendar.vue';
 
-YhCalendar.install = Vue => Vue.component(YhCalendar.name, YhCalendar)
+yhcalendar.install = Vue => Vue.component(yhcalendar.name, yhcalendar)
 
 export default {
-  YhCalendar,
+  yhcalendar,
 };

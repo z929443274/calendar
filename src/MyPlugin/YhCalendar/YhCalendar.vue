@@ -45,7 +45,7 @@
 import moment from 'moment';
 
 export default {
-  name: 'YhCalendar',
+  name: 'yhcalendar',
   data() {
     return {
       msg: '测试',
