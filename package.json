@@ -1,11 +1,11 @@
 {
   "name": "yh-calendar",
-  "main": "dist/yh-calendar.common.js",
+  "main": "./dist/YhCalendar.common.js",
   "version": "0.1.4",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name yh-calendar --no-clean src/MyPlugin/index.js"
+    "build": "vue-cli-service build --target lib --name YhCalendar --no-clean src/MyPlugin/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -25,5 +25,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "files": [
+    "dist"
   ]
 }
