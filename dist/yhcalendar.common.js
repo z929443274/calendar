@@ -24204,9 +24204,7 @@ YhCalendar.install = function (Vue) {
   return Vue.component(YhCalendar.name, YhCalendar);
 };
 
-/* harmony default export */ var MyPlugin = ({
-  yhcalendar: YhCalendar
-});
+/* harmony default export */ var MyPlugin = (YhCalendar);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
